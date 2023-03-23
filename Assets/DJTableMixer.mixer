@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-6872935611357637704
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 0d6c49decdfef9742ad0a9d66722ce58
+  m_EffectName: Attenuation
+  m_MixLevel: ccbe64134d32215488189ba250950cd1
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &-5690655176459995330
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Musica 1
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: fc2e7af6a85e5114d90d00d217e6aa43
+  m_Children: []
+  m_Volume: 3806aaf2705756c4f9c6e0718b6b75e1
+  m_Pitch: c5e59ac26ef000a4f88f967b84d7972a
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -5150929332929244261}
+  - {fileID: 4777974991699300750}
+  - {fileID: -4354841674973532294}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &-5324200792110823739
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: a6751b1a9ece9e1488fb354c1d5b5de8
+  m_EffectName: Highpass
+  m_MixLevel: a2eac4027f6061544b7de230a9c4ce71
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: ef1c03dfe547e2948b5d8664ca2181d5
+  - m_ParameterName: Resonance
+    m_GUID: 8fc0aed2578090b44a8a012299e49562
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &-5150929332929244261
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: ab759e277954fd549a8105990bef564e
+  m_EffectName: Attenuation
+  m_MixLevel: 3e187dc95c51caf4dbfa9cc1e1537f28
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &-4354841674973532294
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 6c45a803a3ad727458513f0db8025e83
+  m_EffectName: Highpass
+  m_MixLevel: c9caeb7a209a99d4a8d48e8d6d3ca5c8
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: e787422c861f25f40913ec0fb1aab937
+  - m_ParameterName: Resonance
+    m_GUID: 7fa8706e0c542f340ab5897d2b9dd855
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &-156922017363904080
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 77061d623e0d7d046aac84abb06249c5
+  m_EffectName: Lowpass
+  m_MixLevel: d0081468bfba0f64daa1c894c3ca9a59
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: cc1c05f1cbd76b34b864b28684d16aba
+  - m_ParameterName: Resonance
+    m_GUID: 6d50740a0707385468dbab94c3fac85d
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DJTableMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters:
+  - guid: 3806aaf2705756c4f9c6e0718b6b75e1
+    name: Musica 1 Volume
+  - guid: e787422c861f25f40913ec0fb1aab937
+    name: Musica 1 Highpass Cutoff
+  - guid: dbbaecbfa97ef844692d5a532568fb17
+    name: Musica 1 Lowpass Cutoff
+  - guid: 75218ac738b6e404f9bc8d8460ecc8f3
+    name: Musica 2 Volume
+  - guid: ef1c03dfe547e2948b5d8664ca2181d5
+    name: Musica 2 Highpass Cutoff
+  - guid: cc1c05f1cbd76b34b864b28684d16aba
+    name: Musica 2 Lowpass Cutoff
+  m_AudioMixerGroupViews:
+  - guids:
+    - 0d60a5f5a79220e429949993fd9d682f
+    - fc2e7af6a85e5114d90d00d217e6aa43
+    - 8e3bd92b12f96a741959ab699a481242
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 0d60a5f5a79220e429949993fd9d682f
+  m_Children:
+  - {fileID: -5690655176459995330}
+  - {fileID: 6641552812543018680}
+  m_Volume: 57aa1f47bae3b3143a6e0083a1190d62
+  m_Pitch: b405d64a9fae3ad4a8a28b828703cc4e
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 628714814857b01408e323e282c644d1
+  m_EffectName: Attenuation
+  m_MixLevel: 2ca3713b4499ba8419e594d784d20178
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 0cb19c6ec410d4546a150943e3d8a2bf
+  m_FloatValues:
+    cc1c05f1cbd76b34b864b28684d16aba: 1121
+    8fc0aed2578090b44a8a012299e49562: 1
+    3806aaf2705756c4f9c6e0718b6b75e1: 20
+    57aa1f47bae3b3143a6e0083a1190d62: -0.002441872
+    75218ac738b6e404f9bc8d8460ecc8f3: 20
+    6d50740a0707385468dbab94c3fac85d: 1
+    e787422c861f25f40913ec0fb1aab937: 2239
+    dbbaecbfa97ef844692d5a532568fb17: 1121
+    ef1c03dfe547e2948b5d8664ca2181d5: 2239
+  m_TransitionOverrides:
+    3806aaf2705756c4f9c6e0718b6b75e1: 2
+--- !u!244 &4777974991699300750
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 72ea02f246426044fbafdb2fd475bde6
+  m_EffectName: Lowpass
+  m_MixLevel: bc2a32ee02f56bc43b9e522afb5e2255
+  m_Parameters:
+  - m_ParameterName: Cutoff freq
+    m_GUID: dbbaecbfa97ef844692d5a532568fb17
+  - m_ParameterName: Resonance
+    m_GUID: 02d200a45aff0d945b6894c7b420ac6b
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &6641552812543018680
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Musica 2
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 8e3bd92b12f96a741959ab699a481242
+  m_Children: []
+  m_Volume: 75218ac738b6e404f9bc8d8460ecc8f3
+  m_Pitch: 9bb9de82423e8164e8f197ca782e30a5
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -6872935611357637704}
+  - {fileID: -156922017363904080}
+  - {fileID: -5324200792110823739}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
