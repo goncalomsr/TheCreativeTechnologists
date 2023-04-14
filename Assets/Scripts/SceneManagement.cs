@@ -36,4 +36,24 @@ public class SceneManagement : MonoBehaviour
             }
         }
     }
+
+    public void ToVMP()
+    {
+        SceneManager.LoadScene("VideoMappingProjection");
+    }
+
+    public void ToVR()
+    {
+        SceneManager.LoadScene("VirtualReality");
+    }
+
+    public void To3D()
+    {
+        SceneManager.LoadScene("3DModelling");
+    }
+
+    public void ToMain()
+    {
+        SceneManager.LoadScene("Main");
+    }
 }
